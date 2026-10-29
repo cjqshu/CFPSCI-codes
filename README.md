@@ -1,14 +1,14 @@
-# ConfounderDCI
+# CFPS-CI
 
-This is the official implementation of the paper **"[ConfounderDCI]()"**
+This is the official implementation of the paper **"[CFPS-CI]()"**
 
 ## Overview
 
-One key challenge in causal inference is addressing the confounding bias caused by confounders between the treatment and outcome variables. Most studies have only focused on treating all observed covariates as confounders to solve this problem. Adjusting for non-confounders will inevitably result in biased causal effect estimation. This study proposes a novel Confounder Discovery algorithm using Conditional Independence tests (ConfounderDCI), effectively filtering out non-confounders such as mediators, adjustment, and irrelevant variables. 
+One key challenge in causal inference is addressing the confounding bias caused by confounders. Most existing methods focus on treating all observed covariates as confounders without distinguishing confounders from non-confounders. Adjusting for non-confounders does not necessarily eliminate confounding bias and may even lead to biased treatment effect estimation. To solve this problem, we propose a novel framework called Confounder-Aware Fused Propensity Score for Casual Inference (CFPS-CI).
 
-The figure below exhibits the overall framework of our method.
+<!-- The figure below exhibits the overall framework of our method.
 
-![framework](framework.png)
+![framework](framework.png) -->
 
 ## Project directory structure
 
